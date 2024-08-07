@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 110">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #b5d335;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #b5d336;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Icon_About" data-name="Icon About">
+    <g>
+      <circle class="cls-1" cx="55" cy="55" r="51"/>
+      <circle class="cls-1" cx="55" cy="55" r="54.5"/>
+    </g>
+  </g>
+  <g id="Layer_10" data-name="Layer 10">
+    <path class="cls-2" d="M68.84,23.84v10.28c-2.04,0-4.04,0-6.03,0-2.45,0-3.33.87-3.33,3.3,0,1.87,0,3.74,0,5.61,0,.07.03.13.07.33h9.5c-.37,3.63-.73,7.12-1.1,10.7h-8.48v30.21h-12.6v-30.19h-5.94v-10.66h5.94c0-.54-.01-.97,0-1.4.11-2.92-.05-5.87.38-8.74.83-5.53,5.09-9.21,10.67-9.42,3.59-.14,7.2-.03,10.9-.03Z"/>
+  </g>
+</svg>

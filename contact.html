@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Portfolio</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+    <body>
+
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <a href="#contact-section" class="skip-link">Skip to Contact section</a>
+
+        <div class="wrapper-general">
+            <div class="background-container bg-black">
+
+            </div>
+            <div class="container">
+                <!-- HEADER LOGO AND NAVBAR -->
+                <header class="logo" role="banner">
+                    <nav class="navbar navbar-expand-lg pt-4" role="navigation" aria-label="Main navigation">
+                        <div class="container-lg">
+                            <a class="navbar-brand" href="index.html"><img class="w-50" src="images/logo-Echo.svg" alt="Logo Echo Studio"></a>
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <div class="offcanvas offcanvas-end bg-opa" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+                            <div class="offcanvas-header bg-op">
+                                <h4 class="offcanvas-title text-white" id="offcanvasNavbarLabel"><img class="w-25" src="images/logo-Echo.svg" alt="Logo Echo Estudio"> Echo Studio</h4>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item text-uppercase menu-item">
+                                        <a class="nav-link nav-link-home active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+
+                                    <li class="nav-item text-uppercase menu-item">
+                                        <a class="nav-link text-white" href="about.html">Echo's Story</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown text-uppercase menu-item">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">What we Echo</a>
+
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-label="submenu">
+                                            <li><a class="dropdown-item text-white" href="#">Web Design</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Graphic Design</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">UX/UI</a></li>
+
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+
+                                            <li><a class="dropdown-item text-white" href="#">Custom Service</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Service Plans</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item dropdown text-uppercase menu-item">
+                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Echo's of Our Work</a>
+                                        
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-label="submenu">
+                                            <li><a class="dropdown-item text-white" href="#">Web Design Projects</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Graphic Design Projects</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">UX/UI Projects</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item text-uppercase menu-item">
+                                        <a class="nav-link text-white" href="contact.html">Echo with us</a>
+                                    </li>
+
+                                    <li class="nav-item dropdown text-uppercase menu-item">
+                                        <a class="nav-link dropdown-toggle text-white menu-item-a" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Echo Insights</a>
+
+                                        <ul class="dropdown-menu dropdown-menu-dark" aria-label="submenu">
+                                            <li><a class="dropdown-item text-white" href="#">Our Tempo</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Industry Trends</a></li>
+                                            <li><a class="dropdown-item text-white" href="#">Basic Design Tips</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="img-menu">
+                            <img src="images/Menu.svg" alt="Iconos">
+                        </div> -->
+                    </nav>
+                    <!-- ----- MENU ICONS ----- -->
+                    <div class="img-menu-about d-flex justify-content-center pt-5">
+                        <a href="about.html" class="glow-effect icons-memu"><img class="icon-size mx-2"  src="images/about-icon.svg" alt="About Icon - Echo's Story"></a>
+                        <a href="#" class="glow-effect icons-memu"><img class="icon-size mx-2" src="images/services-icon.svg" alt="Services Icon - What whe Echo"></a>
+                        <a href="#" class="glow-effect icons-memu"><img class="icon-size mx-2" src="images/projects-icon.svg" alt="Projects Icon - Echoes of Our Work"></a>
+                        <a href="contact.html" class="glow-effect icons-memu"><img class="icon-size mx-2" src="images/contact-icon.svg" alt="Contact Icon - Echo with Us"></a>
+                        <a href="#" class="glow-effect icons-memu"><img class="icon-size mx-2" src="images/insights-icon.svg" alt="Insights Icon - Echo Insights"></a>
+                    </div>
+                </header>
+            </div>
+
+            <main id="main-content" role="main">
+
+                <!-- ----- SECTION CONTENT ----- -->
+
+                <section id="contact-section" class="container content-contact-section text-white pt-4">
+                    <div class="row content-about">
+                        <div class="col-12 col-lg-6 text-center d-flex align-items-center">
+                            <div id="connecting-w-purpose" class="content-home-text text-lg-start">
+                                <p class="text-uppercase">Connecting with purpose</p>
+                                <h1 class="text-uppercase mt-3">Echo with us</h1>
+                                <p>We want to hear from you! Whether you have a project in mind, need a consultation, or just want to say hello, we are here to listen and collaborate.</p>
+                                
+                                <div class="content-social-media mt-5">
+                                    <p class="text-uppercase fw-bold">Follow us on social media</p>
+                                    <p class="mt-3">Stay connected with us on our social platforms to get the latest updates and insights.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bot-social-icon col-12 col-lg-6 pt-3 d-flex flex-column align-items-center text-focus-in position-relative">
+                            <div class="bot-text">
+                                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.3/build/spline-viewer.js"></script>
+                            <spline-viewer url="https://prod.spline.design/2ek6A8gS6cz-Vvn5/scene.splinecode"></spline-viewer>
+                            </div>
+                            <div class="bot-icon">
+                                <a href="index.html">
+                                    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.3/build/spline-viewer.js"></script>
+                                    <spline-viewer url="https://prod.spline.design/APWLRJ5LTe-EEOIi/scene.splinecode" background="rgba(0, 0, 0, 1)" events-target="global"></spline-viewer>
+                                </a>
+                            </div>
+
+                            <div class="social-icons mt-5">
+                                <a href="https://www.instagram.com/" class="icons icon-s instagram-icon"><img class="icon-med-size" src="images/instagram-icon.svg" alt="Instagram Icon"></a>
+
+                                <a href="https://www.facebook.com/" class="icons icon-s facebook-icon"><img class="icon-med-size" src="images/facebook-icon.svg" alt="Facebook Icon"></a>
+
+                                <a href="https://www.github.com/" class="icons icon-s github-icon"><img class="icon-med-size" src="images/github-icon.svg" alt="Github Icon"></a>
+
+                                <a href="https://www.x.com/" class="icons icon-s twitter-icon"><img class="icon-med-size" src="images/twitter-icon.svg" alt="Twitter Icon"></a>
+                            </div>
+                            
+
+                        </div>
+                    </div>    
+                </section>
+
+            </main>
+
+            <!-- ----- FOOTER ----- -->
+
+            <footer class="text-center text-lg-start text-white pt-5" role="contentinfo">
+                <div class="container p-4 pb-0">
+                    <section>
+                        <div class="row">
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <div class="footer-header c-gr text-uppercase mb-4 font-weight-bold"><a href="about.html">Echo's story</a></div>
+                                <p><a href="about.html#the-studio" class="footer-link">The Studio</a></p>
+                                <p><a href="about.html#vision-mision" class="footer-link">Vision & Mision</a></p>
+                                <p><a href="about.html#our-beat" class="footer-link">Our Beat</a></p>
+                                <p><a href="about.html#our-philosophy" class="footer-link">Our Philosophy</a></p>
+                                <p><a href="about.html#our-values" class="footer-link">Our Values</a></p>
+                            </div>
+                            
+                            <hr class="w-100 clearfix d-md-none" />
+                            
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <div class="footer-header c-gr text-uppercase mb-4 font-weight-bold"><a href="#">What we echo</a></div>
+                                <p><a href="#" class="footer-link">Wed Design</a></p>
+                                <p><a href="#" class="footer-link">Graphic Design</a></p>
+                                <p><a href="#" class="footer-link">UX/UI</a></p>
+                                <p><a href="#" class="footer-link">Service Plans</a></p>
+                                <p><a href="#" class="footer-link">Custom Plans</a></p>
+                            </div>
+                            
+                            <hr class="w-100 clearfix d-md-none" />
+                            
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <div class="footer-header c-gr text-uppercase mb-4 font-weight-bold"><a href="#">Echoes of our work</a></div>
+                                <p><a href="#" class="footer-link">Wed Design Projects</a></p>
+                                <p><a href="#" class="footer-link">Graphic Design Projects</a></p>
+                                <p><a href="#" class="footer-link">UX/UI Projects</a></p>
+                            </div>
+                            
+                            <hr class="w-100 clearfix d-md-none" />
+                            
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <div class="footer-header c-gr text-uppercase mb-4 font-weight-bold"><a href="contact.html">Echo with us</a></div>
+                                <p><a href="contact.html#connecting-w-purpose" class="footer-link">Connecting with Purpose</a></p>
+                                <p><a href="#" class="footer-link">Talk to EchoBot</a></p>
+                            </div>
+            
+                            <hr class="w-100 clearfix d-md-none" />
+                            
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <div class="footer-header c-gr text-uppercase mb-4 font-weight-bold"><a href="#">Echo Insights</a></div>
+                                <p><a href="#" class="footer-link">Our Tempo</a></p>
+                                <p><a href="#" class="footer-link">Industry Trends</a></p>
+                                <p><a href="#" class="footer-link">Basic Design Tips</a></p>
+                            </div>
+                        </div>
+                    </section>
+            
+                    <hr class="my-3">
+            
+                    <section class="p-3 pt-0">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-md-7 col-lg-8 text-center text-md-start">
+                                <div class="p-3">
+                                    <p>&copy; Echo Studio, 2024. All right reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-lg-4">
+                                <a href="https://www.instagram.com" class="footer-icon" aria-label="Instagram"><img class="icon-social-f-size" src="images/instagram-icon.svg" alt="Instagram"></a>
+                                <a href="https://www.facebook.com" class="footer-icon mx-2" aria-label="Facebook"><img class="icon-social-f-size" src="images/facebook-icon.svg" alt="Facebook"></a>
+                                <a href="https://www.x.com" class="footer-icon" aria-label="Twitter"><img class="icon-social-f-size" src="images/twitter-icon.svg" alt="Twitter"></a>
+                                <a href="https://www.github.com" class="footer-icon mx-2" aria-label="GitHub"><img class="icon-social-f-size" src="images/github-icon.svg" alt="GitHub"></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+
+
+
+ 
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
